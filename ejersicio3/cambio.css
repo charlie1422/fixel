@@ -1,0 +1,29 @@
+/* Estilos generales */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el ahorcado */
+  .ahorcado {
+    width: 200px;
+    height: 200px;
+    background: url('ahorcado.png') no-repeat;
+    background-size: cover;
+  }
+  
+  .ahorcado-0 { background-position: 0 0; }
+  .ahorcado-1 { background-position: -200px 0; }
+  /* ... Aquí continuarían las diferentes imágenes del ahorcado */
+  
